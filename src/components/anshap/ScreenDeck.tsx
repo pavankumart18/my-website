@@ -62,7 +62,7 @@ export function ScreenDeck() {
               onClick={() => off !== 0 && setI(k)}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={asset(s.src)} alt={s.title} draggable={false} className="h-full w-full object-cover object-top" />
+              <img src={asset(s.src)} alt={s.title} loading="lazy" decoding="async" draggable={false} className="h-full w-full object-cover object-top" />
             </motion.div>
           );
         })}

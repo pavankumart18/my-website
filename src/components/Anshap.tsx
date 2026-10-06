@@ -41,7 +41,7 @@ export function Anshap() {
       <Reveal className="mt-12">
         <div className="glass flex max-w-3xl items-center gap-5 rounded-3xl border hairline p-5 sm:p-6">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={asset("/images/anshap/icon.png")} alt="Anshap" className="h-14 w-14 flex-none rounded-2xl bg-white p-1.5" />
+          <img src={asset("/images/anshap/icon.png")} alt="Anshap" loading="lazy" className="h-14 w-14 flex-none rounded-2xl bg-white p-1.5" />
           <p className="font-serif text-xl italic leading-snug text-text/90 sm:text-2xl">{anshap.founderLine}</p>
         </div>
       </Reveal>

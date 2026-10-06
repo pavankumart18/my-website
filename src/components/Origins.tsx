@@ -50,7 +50,7 @@ export function Origins() {
           {certs.map((c) => (
             <div key={c.title} className="group glass p-6 transition-colors hover:bg-surface-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={asset(c.image)} alt="" className="h-9 w-9 rounded-md object-contain opacity-80 grayscale transition group-hover:opacity-100 group-hover:grayscale-0" />
+              <img src={asset(c.image)} alt="" loading="lazy" className="h-9 w-9 rounded-md object-contain opacity-80 grayscale transition group-hover:opacity-100 group-hover:grayscale-0" />
               <p className="mt-5 text-xs text-muted">{c.issuer}</p>
               <p className="mt-1 font-medium">{c.title}</p>
               <ul className="mt-4 space-y-1.5 text-sm text-muted">
