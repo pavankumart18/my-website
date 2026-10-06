@@ -1,0 +1,968 @@
+{
+ "generatedAt": "2026-10-06T13:01:35.658Z",
+ "total": 94,
+ "monthly": {
+  "2024-02": 3,
+  "2024-03": 2,
+  "2024-05": 3,
+  "2024-06": 2,
+  "2024-07": 8,
+  "2024-08": 2,
+  "2024-09": 2,
+  "2024-11": 3,
+  "2025-03": 1,
+  "2025-09": 1,
+  "2025-10": 8,
+  "2025-11": 7,
+  "2025-12": 3,
+  "2026-01": 3,
+  "2026-02": 10,
+  "2026-03": 15,
+  "2026-04": 5,
+  "2026-05": 7,
+  "2026-06": 5,
+  "2026-07": 1
+ },
+ "repos": [
+  {
+   "name": "iss-tracker",
+   "html_url": "https://github.com/pavankumart18/iss-tracker",
+   "homepage": null,
+   "description": null,
+   "language": null,
+   "pushed_at": "2026-10-05T20:17:31Z",
+   "created_at": "2025-10-08T09:08:40Z",
+   "fork": false
+  },
+  {
+   "name": "iss-tracker-new",
+   "html_url": "https://github.com/pavankumart18/iss-tracker-new",
+   "homepage": null,
+   "description": null,
+   "language": null,
+   "pushed_at": "2026-10-04T16:09:04Z",
+   "created_at": "2025-10-08T09:26:21Z",
+   "fork": false
+  },
+  {
+   "name": "client-demo-skills",
+   "html_url": "https://github.com/pavankumart18/client-demo-skills",
+   "homepage": null,
+   "description": "8 master Claude Code skills for building compelling client demos with coding agents",
+   "language": null,
+   "pushed_at": "2026-08-06T21:12:40Z",
+   "created_at": "2026-07-30T06:42:44Z",
+   "fork": false
+  },
+  {
+   "name": "data-harmonization",
+   "html_url": "https://github.com/pavankumart18/data-harmonization",
+   "homepage": "https://pavankumart18.github.io/data-harmonization/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-07-07T12:38:46Z",
+   "created_at": "2026-03-31T14:37:21Z",
+   "fork": false
+  },
+  {
+   "name": "agents",
+   "html_url": "https://github.com/pavankumart18/agents",
+   "homepage": null,
+   "description": null,
+   "language": null,
+   "pushed_at": "2026-06-28T16:56:21Z",
+   "created_at": "2026-06-26T05:21:58Z",
+   "fork": false
+  },
+  {
+   "name": "ECC",
+   "html_url": "https://github.com/pavankumart18/ECC",
+   "homepage": "https://ecc.tools",
+   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "language": null,
+   "pushed_at": "2026-06-25T23:47:36Z",
+   "created_at": "2026-06-27T21:05:02Z",
+   "fork": true
+  },
+  {
+   "name": "md-html",
+   "html_url": "https://github.com/pavankumart18/md-html",
+   "homepage": null,
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-06-21T20:42:02Z",
+   "created_at": "2026-06-21T20:40:38Z",
+   "fork": false
+  },
+  {
+   "name": "indesign-journey",
+   "html_url": "https://github.com/pavankumart18/indesign-journey",
+   "homepage": "https://pavankumart18.github.io/indesign-journey/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-06-04T22:22:42Z",
+   "created_at": "2026-06-04T20:21:19Z",
+   "fork": false
+  },
+  {
+   "name": "f1",
+   "html_url": "https://github.com/pavankumart18/f1",
+   "homepage": null,
+   "description": null,
+   "language": "TypeScript",
+   "pushed_at": "2026-06-03T15:12:12Z",
+   "created_at": "2026-06-03T12:59:30Z",
+   "fork": false
+  },
+  {
+   "name": "merlin-entertainment-demo",
+   "html_url": "https://github.com/pavankumart18/merlin-entertainment-demo",
+   "homepage": null,
+   "description": null,
+   "language": null,
+   "pushed_at": "2026-06-03T11:23:25Z",
+   "created_at": "2026-06-03T11:23:25Z",
+   "fork": false
+  },
+  {
+   "name": "cricket",
+   "html_url": "https://github.com/pavankumart18/cricket",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2026-05-31T20:51:52Z",
+   "created_at": "2026-05-31T18:33:22Z",
+   "fork": false
+  },
+  {
+   "name": "hcp-network-intelligence-workbench",
+   "html_url": "https://github.com/pavankumart18/hcp-network-intelligence-workbench",
+   "homepage": "https://pavankumart18.github.io/hcp-network-intelligence-workbench/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-05-28T06:28:10Z",
+   "created_at": "2026-05-26T05:23:59Z",
+   "fork": false
+  },
+  {
+   "name": "frontierscience-viz",
+   "html_url": "https://github.com/pavankumart18/frontierscience-viz",
+   "homepage": "https://pavankumart18.github.io/frontierscience-viz/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-05-21T19:05:01Z",
+   "created_at": "2026-05-17T18:53:23Z",
+   "fork": false
+  },
+  {
+   "name": "clearing-triage",
+   "html_url": "https://github.com/pavankumart18/clearing-triage",
+   "homepage": "https://pavankumart18.github.io/clearing-triage/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-05-21T19:00:16Z",
+   "created_at": "2026-05-21T18:54:36Z",
+   "fork": false
+  },
+  {
+   "name": "gemma4_with_claude_code",
+   "html_url": "https://github.com/pavankumart18/gemma4_with_claude_code",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2026-05-14T05:51:05Z",
+   "created_at": "2026-05-14T05:48:44Z",
+   "fork": false
+  },
+  {
+   "name": "wps-nuclear-demo",
+   "html_url": "https://github.com/pavankumart18/wps-nuclear-demo",
+   "homepage": "https://pavankumart18.github.io/wps-nuclear-demo/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-05-11T11:18:40Z",
+   "created_at": "2026-05-07T13:48:20Z",
+   "fork": false
+  },
+  {
+   "name": "ai-card-studio",
+   "html_url": "https://github.com/pavankumart18/ai-card-studio",
+   "homepage": "https://pavankumart18.github.io/ai-card-studio/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-05-11T07:03:05Z",
+   "created_at": "2026-05-04T08:52:38Z",
+   "fork": false
+  },
+  {
+   "name": "curio-ledger",
+   "html_url": "https://github.com/pavankumart18/curio-ledger",
+   "homepage": "https://pavankumart18.github.io/curio-ledger/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-04-26T13:00:29Z",
+   "created_at": "2026-03-24T17:08:23Z",
+   "fork": false
+  },
+  {
+   "name": "lewm-demos",
+   "html_url": "https://github.com/pavankumart18/lewm-demos",
+   "homepage": "https://pavankumart18.github.io/lewm-demos/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-04-23T10:08:46Z",
+   "created_at": "2026-04-22T10:06:28Z",
+   "fork": false
+  },
+  {
+   "name": "parallel-editing",
+   "html_url": "https://github.com/pavankumart18/parallel-editing",
+   "homepage": "https://pavankumart18.github.io/parallel-editing/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-04-22T07:18:35Z",
+   "created_at": "2026-04-22T07:17:51Z",
+   "fork": false
+  },
+  {
+   "name": "learn-with-ai",
+   "html_url": "https://github.com/pavankumart18/learn-with-ai",
+   "homepage": "https://pavankumart18.github.io/learn-with-ai/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-04-16T14:24:37Z",
+   "created_at": "2026-04-13T15:03:27Z",
+   "fork": false
+  },
+  {
+   "name": "ad-campaign-engine",
+   "html_url": "https://github.com/pavankumart18/ad-campaign-engine",
+   "homepage": "https://pavankumart18.github.io/ad-campaign-engine/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-04-15T10:08:16Z",
+   "created_at": "2026-03-04T05:47:34Z",
+   "fork": false
+  },
+  {
+   "name": "ocr-benchmark-analysis",
+   "html_url": "https://github.com/pavankumart18/ocr-benchmark-analysis",
+   "homepage": "https://pavankumart18.github.io/ocr-benchmark-analysis/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-04-14T03:44:09Z",
+   "created_at": "2026-04-08T19:56:22Z",
+   "fork": false
+  },
+  {
+   "name": "VELA",
+   "html_url": "https://github.com/pavankumart18/VELA",
+   "homepage": null,
+   "description": "A One Solution for Founders Connect",
+   "language": "TypeScript",
+   "pushed_at": "2026-04-11T18:29:34Z",
+   "created_at": "2026-03-30T17:37:19Z",
+   "fork": false
+  },
+  {
+   "name": "ad-ops-copilot",
+   "html_url": "https://github.com/pavankumart18/ad-ops-copilot",
+   "homepage": "https://pavankumart18.github.io/ad-ops-copilot/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-04-06T10:30:34Z",
+   "created_at": "2026-04-06T10:27:24Z",
+   "fork": false
+  },
+  {
+   "name": "automated-form-filling",
+   "html_url": "https://github.com/pavankumart18/automated-form-filling",
+   "homepage": "https://pavankumart18.github.io/automated-form-filling/",
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2026-04-06T05:52:45Z",
+   "created_at": "2026-03-24T06:19:18Z",
+   "fork": false
+  },
+  {
+   "name": "News-Aggregator-and-Summarizer",
+   "html_url": "https://github.com/pavankumart18/News-Aggregator-and-Summarizer",
+   "homepage": null,
+   "description": "A MERN Stack Application , where a ad free new aggregator collected from different websites, and summariser using CHATGPT API ",
+   "language": "JavaScript",
+   "pushed_at": "2026-04-01T18:26:47Z",
+   "created_at": "2024-02-16T17:47:51Z",
+   "fork": false
+  },
+  {
+   "name": "school-compliance-demo",
+   "html_url": "https://github.com/pavankumart18/school-compliance-demo",
+   "homepage": "https://pavankumart18.github.io/school-compliance-demo/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-03-27T08:10:28Z",
+   "created_at": "2026-03-27T08:09:58Z",
+   "fork": false
+  },
+  {
+   "name": "school-compliance-checker",
+   "html_url": "https://github.com/pavankumart18/school-compliance-checker",
+   "homepage": "https://pavankumart18.github.io/school-compliance-checker/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-03-27T08:08:37Z",
+   "created_at": "2026-02-18T18:47:19Z",
+   "fork": false
+  },
+  {
+   "name": "ai-ros",
+   "html_url": "https://github.com/pavankumart18/ai-ros",
+   "homepage": "https://pavankumart18.github.io/ai-ros/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-03-27T05:53:17Z",
+   "created_at": "2026-03-09T21:02:24Z",
+   "fork": false
+  },
+  {
+   "name": "lean-with-claude",
+   "html_url": "https://github.com/pavankumart18/lean-with-claude",
+   "homepage": "https://pavankumart18.github.io/lean-with-claude/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-03-26T01:33:57Z",
+   "created_at": "2026-03-26T01:27:17Z",
+   "fork": false
+  },
+  {
+   "name": "matlab-mcp",
+   "html_url": "https://github.com/pavankumart18/matlab-mcp",
+   "homepage": "https://pavankumart18.github.io/matlab-mcp/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-03-25T04:05:57Z",
+   "created_at": "2026-03-25T04:05:11Z",
+   "fork": false
+  },
+  {
+   "name": "browserless-demo",
+   "html_url": "https://github.com/pavankumart18/browserless-demo",
+   "homepage": null,
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-03-10T06:17:27Z",
+   "created_at": "2026-03-05T22:55:55Z",
+   "fork": false
+  },
+  {
+   "name": "ai-blender-design-journey",
+   "html_url": "https://github.com/pavankumart18/ai-blender-design-journey",
+   "homepage": "https://pavankumart18.github.io/ai-blender-design-journey/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-03-09T21:09:58Z",
+   "created_at": "2026-03-06T09:19:19Z",
+   "fork": false
+  },
+  {
+   "name": "agent-builder",
+   "html_url": "https://github.com/pavankumart18/agent-builder",
+   "homepage": "https://pavankumart18.github.io/agent-builder/",
+   "description": "Client-side multi-agent orchestrator with BYO key, live streaming outputs, and flow-diagram visualization.",
+   "language": "JavaScript",
+   "pushed_at": "2026-03-06T13:23:03Z",
+   "created_at": "2025-12-01T23:08:50Z",
+   "fork": false
+  },
+  {
+   "name": "adtech-engine",
+   "html_url": "https://github.com/pavankumart18/adtech-engine",
+   "homepage": "https://pavankumart18.github.io/adtech-engine/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-03-06T00:11:39Z",
+   "created_at": "2026-03-06T00:10:20Z",
+   "fork": false
+  },
+  {
+   "name": "github-actions-workflow",
+   "html_url": "https://github.com/pavankumart18/github-actions-workflow",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2026-03-05T21:21:34Z",
+   "created_at": "2026-03-05T21:03:55Z",
+   "fork": false
+  },
+  {
+   "name": "School-Dashboard",
+   "html_url": "https://github.com/pavankumart18/School-Dashboard",
+   "homepage": "https://pavankumart18.github.io/School-Dashboard/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-03-04T09:28:57Z",
+   "created_at": "2026-02-18T11:16:06Z",
+   "fork": false
+  },
+  {
+   "name": "SCAN-Dashboard",
+   "html_url": "https://github.com/pavankumart18/SCAN-Dashboard",
+   "homepage": "https://pavankumart18.github.io/SCAN-Dashboard/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-03-04T08:59:41Z",
+   "created_at": "2026-02-17T18:19:36Z",
+   "fork": false
+  },
+  {
+   "name": "clinical-data-review",
+   "html_url": "https://github.com/pavankumart18/clinical-data-review",
+   "homepage": "https://pavankumart18.github.io/clinical-data-review/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-03-04T05:16:04Z",
+   "created_at": "2026-03-02T05:14:28Z",
+   "fork": false
+  },
+  {
+   "name": "visual-biography",
+   "html_url": "https://github.com/pavankumart18/visual-biography",
+   "homepage": "https://pavankumart18.github.io/visual-biography/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-03-04T04:31:40Z",
+   "created_at": "2026-02-09T02:19:06Z",
+   "fork": false
+  },
+  {
+   "name": "merlin-kpi-compass",
+   "html_url": "https://github.com/pavankumart18/merlin-kpi-compass",
+   "homepage": "https://pavankumart18.github.io/merlin-kpi-compass/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-03-02T09:17:25Z",
+   "created_at": "2026-03-02T05:21:11Z",
+   "fork": false
+  },
+  {
+   "name": "schoolai",
+   "html_url": "https://github.com/pavankumart18/schoolai",
+   "homepage": null,
+   "description": "AI support for schools",
+   "language": "JavaScript",
+   "pushed_at": "2026-02-27T15:30:49Z",
+   "created_at": "2026-02-27T04:39:48Z",
+   "fork": true
+  },
+  {
+   "name": "mcp_server",
+   "html_url": "https://github.com/pavankumart18/mcp_server",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2026-02-27T06:12:30Z",
+   "created_at": "2026-02-27T04:36:01Z",
+   "fork": false
+  },
+  {
+   "name": "deal-engine",
+   "html_url": "https://github.com/pavankumart18/deal-engine",
+   "homepage": "https://pavankumart18.github.io/deal-engine/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-02-25T15:57:55Z",
+   "created_at": "2026-02-23T18:47:00Z",
+   "fork": false
+  },
+  {
+   "name": "3d-benchmark-analysis",
+   "html_url": "https://github.com/pavankumart18/3d-benchmark-analysis",
+   "homepage": "https://pavankumart18.github.io/3d-benchmark-analysis/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-02-24T18:14:52Z",
+   "created_at": "2026-02-23T17:07:04Z",
+   "fork": false
+  },
+  {
+   "name": "school-level-data-analysis",
+   "html_url": "https://github.com/pavankumart18/school-level-data-analysis",
+   "homepage": "https://pavankumart18.github.io/school-level-data-analysis/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-02-10T06:46:35Z",
+   "created_at": "2026-02-10T01:23:08Z",
+   "fork": false
+  },
+  {
+   "name": "parent-feedback-analysis",
+   "html_url": "https://github.com/pavankumart18/parent-feedback-analysis",
+   "homepage": "https://pavankumart18.github.io/parent-feedback-analysis/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-02-10T02:49:11Z",
+   "created_at": "2026-02-10T01:36:22Z",
+   "fork": false
+  },
+  {
+   "name": "svg-generation-analysis",
+   "html_url": "https://github.com/pavankumart18/svg-generation-analysis",
+   "homepage": "https://pavankumart18.github.io/svg-generation-analysis/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-02-04T05:32:56Z",
+   "created_at": "2026-01-27T02:59:20Z",
+   "fork": false
+  },
+  {
+   "name": "sql-analysis",
+   "html_url": "https://github.com/pavankumart18/sql-analysis",
+   "homepage": "https://pavankumart18.github.io/sql-analysis/",
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2026-02-02T10:08:38Z",
+   "created_at": "2026-02-02T00:06:56Z",
+   "fork": false
+  },
+  {
+   "name": "comic-transcriptions",
+   "html_url": "https://github.com/pavankumart18/comic-transcriptions",
+   "homepage": "https://pavankumart18.github.io/comic-transcriptions/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-01-30T05:40:39Z",
+   "created_at": "2026-01-27T01:59:52Z",
+   "fork": false
+  },
+  {
+   "name": "form",
+   "html_url": "https://github.com/pavankumart18/form",
+   "homepage": "https://pavankumart18.github.io/form/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2026-01-07T06:28:44Z",
+   "created_at": "2026-01-07T06:15:39Z",
+   "fork": false
+  },
+  {
+   "name": "Gemini-RAG",
+   "html_url": "https://github.com/pavankumart18/Gemini-RAG",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2025-12-11T20:12:03Z",
+   "created_at": "2025-12-11T20:11:47Z",
+   "fork": false
+  },
+  {
+   "name": "Agent-flow-builder",
+   "html_url": "https://github.com/pavankumart18/Agent-flow-builder",
+   "homepage": "https://pavankumart18.github.io/Agent-flow-builder/",
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2025-12-08T11:23:59Z",
+   "created_at": "2025-12-07T21:03:05Z",
+   "fork": false
+  },
+  {
+   "name": "hypoforge",
+   "html_url": "https://github.com/pavankumart18/hypoforge",
+   "homepage": "https://sanand0.github.io/hypoforge/",
+   "description": "Use LLMs to analyze any dataset, create hypotheses from those, test the hypotheses and summarize",
+   "language": "JavaScript",
+   "pushed_at": "2025-12-05T05:48:07Z",
+   "created_at": "2025-12-03T18:37:18Z",
+   "fork": true
+  },
+  {
+   "name": "LLM-Cabinet",
+   "html_url": "https://github.com/pavankumart18/LLM-Cabinet",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2025-11-19T10:32:38Z",
+   "created_at": "2025-11-19T10:31:40Z",
+   "fork": false
+  },
+  {
+   "name": "cli_gemini",
+   "html_url": "https://github.com/pavankumart18/cli_gemini",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2025-11-19T09:20:47Z",
+   "created_at": "2025-11-18T18:19:19Z",
+   "fork": false
+  },
+  {
+   "name": "animated-data-insights",
+   "html_url": "https://github.com/pavankumart18/animated-data-insights",
+   "homepage": "https://pavankumart18.github.io/animated-data-insights/",
+   "description": "Animated Data Insights of Anthropic Economic Index Data Comparisions of countries and states",
+   "language": "Python",
+   "pushed_at": "2025-11-17T10:01:31Z",
+   "created_at": "2025-11-11T10:36:17Z",
+   "fork": false
+  },
+  {
+   "name": "Anthropic-Economic-Index-Countries-and-States-Data",
+   "html_url": "https://github.com/pavankumart18/Anthropic-Economic-Index-Countries-and-States-Data",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2025-11-17T06:05:41Z",
+   "created_at": "2025-11-17T06:03:49Z",
+   "fork": false
+  },
+  {
+   "name": "Automating-Flipkart-Booking",
+   "html_url": "https://github.com/pavankumart18/Automating-Flipkart-Booking",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2025-11-12T06:11:17Z",
+   "created_at": "2025-11-12T06:07:48Z",
+   "fork": false
+  },
+  {
+   "name": "Udemy_Course_Completion",
+   "html_url": "https://github.com/pavankumart18/Udemy_Course_Completion",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2025-11-11T08:52:54Z",
+   "created_at": "2025-11-11T08:27:44Z",
+   "fork": false
+  },
+  {
+   "name": "brain-alchemy",
+   "html_url": "https://github.com/pavankumart18/brain-alchemy",
+   "homepage": null,
+   "description": null,
+   "language": "TypeScript",
+   "pushed_at": "2025-11-02T20:58:52Z",
+   "created_at": "2025-11-02T15:40:41Z",
+   "fork": false
+  },
+  {
+   "name": "Credit-Card-Management-System",
+   "html_url": "https://github.com/pavankumart18/Credit-Card-Management-System",
+   "homepage": null,
+   "description": null,
+   "language": "TypeScript",
+   "pushed_at": "2025-10-16T18:29:58Z",
+   "created_at": "2025-10-16T18:27:05Z",
+   "fork": false
+  },
+  {
+   "name": "credit-card-management-backend",
+   "html_url": "https://github.com/pavankumart18/credit-card-management-backend",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2025-10-16T00:33:56Z",
+   "created_at": "2025-10-16T00:26:01Z",
+   "fork": false
+  },
+  {
+   "name": "Credit-Card-Management",
+   "html_url": "https://github.com/pavankumart18/Credit-Card-Management",
+   "homepage": null,
+   "description": null,
+   "language": "TypeScript",
+   "pushed_at": "2025-10-15T14:42:01Z",
+   "created_at": "2025-10-15T14:39:02Z",
+   "fork": false
+  },
+  {
+   "name": "a_short_code_deploy",
+   "html_url": "https://github.com/pavankumart18/a_short_code_deploy",
+   "homepage": "https://a-short-code-deploy.vercel.app",
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2025-10-08T16:24:05Z",
+   "created_at": "2025-10-08T16:23:23Z",
+   "fork": false
+  },
+  {
+   "name": "my-codespace-test",
+   "html_url": "https://github.com/pavankumart18/my-codespace-test",
+   "homepage": null,
+   "description": null,
+   "language": null,
+   "pushed_at": "2025-10-08T07:31:14Z",
+   "created_at": "2025-10-08T07:17:17Z",
+   "fork": false
+  },
+  {
+   "name": "loan-approval-application",
+   "html_url": "https://github.com/pavankumart18/loan-approval-application",
+   "homepage": null,
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2025-10-05T11:42:49Z",
+   "created_at": "2025-10-05T11:42:03Z",
+   "fork": false
+  },
+  {
+   "name": "Ecommerce_mini_project",
+   "html_url": "https://github.com/pavankumart18/Ecommerce_mini_project",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2025-09-25T11:23:29Z",
+   "created_at": "2025-09-25T11:16:29Z",
+   "fork": false
+  },
+  {
+   "name": "Advancements-in-ict-based-education",
+   "html_url": "https://github.com/pavankumart18/Advancements-in-ict-based-education",
+   "homepage": null,
+   "description": null,
+   "language": null,
+   "pushed_at": "2025-03-12T14:14:10Z",
+   "created_at": "2025-03-12T14:13:56Z",
+   "fork": false
+  },
+  {
+   "name": "Tennis-Ball-Detection",
+   "html_url": "https://github.com/pavankumart18/Tennis-Ball-Detection",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2024-11-25T13:23:22Z",
+   "created_at": "2024-11-13T15:11:14Z",
+   "fork": false
+  },
+  {
+   "name": "streamlithelloworld",
+   "html_url": "https://github.com/pavankumart18/streamlithelloworld",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2024-11-17T16:50:25Z",
+   "created_at": "2024-11-17T16:49:54Z",
+   "fork": false
+  },
+  {
+   "name": "json2html",
+   "html_url": "https://github.com/pavankumart18/json2html",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2024-11-07T13:28:45Z",
+   "created_at": "2024-11-07T13:27:34Z",
+   "fork": false
+  },
+  {
+   "name": "CBIT-Connect",
+   "html_url": "https://github.com/pavankumart18/CBIT-Connect",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2024-09-23T07:41:41Z",
+   "created_at": "2024-08-30T10:05:12Z",
+   "fork": false
+  },
+  {
+   "name": "Expense-Tracker",
+   "html_url": "https://github.com/pavankumart18/Expense-Tracker",
+   "homepage": null,
+   "description": "A Simple Expense Tracker App using GraphQL",
+   "language": "JavaScript",
+   "pushed_at": "2024-09-17T23:34:34Z",
+   "created_at": "2024-09-16T20:53:21Z",
+   "fork": false
+  },
+  {
+   "name": "Task-Management",
+   "html_url": "https://github.com/pavankumart18/Task-Management",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2024-09-15T08:48:44Z",
+   "created_at": "2024-09-15T07:54:00Z",
+   "fork": false
+  },
+  {
+   "name": "Pet-Adopt-App",
+   "html_url": "https://github.com/pavankumart18/Pet-Adopt-App",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2024-08-11T18:14:14Z",
+   "created_at": "2024-08-11T18:09:00Z",
+   "fork": false
+  },
+  {
+   "name": "Ai-Travel-Planner-App",
+   "html_url": "https://github.com/pavankumart18/Ai-Travel-Planner-App",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2024-07-31T16:59:13Z",
+   "created_at": "2024-07-31T15:52:58Z",
+   "fork": false
+  },
+  {
+   "name": "Jarvis-Ai",
+   "html_url": "https://github.com/pavankumart18/Jarvis-Ai",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2024-07-31T16:57:10Z",
+   "created_at": "2024-07-31T16:10:22Z",
+   "fork": false
+  },
+  {
+   "name": "Operation-on-PDF",
+   "html_url": "https://github.com/pavankumart18/Operation-on-PDF",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2024-07-31T16:40:39Z",
+   "created_at": "2024-07-31T16:25:03Z",
+   "fork": false
+  },
+  {
+   "name": "hand-cricket-app",
+   "html_url": "https://github.com/pavankumart18/hand-cricket-app",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2024-07-31T16:02:07Z",
+   "created_at": "2024-07-04T15:05:58Z",
+   "fork": false
+  },
+  {
+   "name": "FireBase-Chat",
+   "html_url": "https://github.com/pavankumart18/FireBase-Chat",
+   "homepage": null,
+   "description": "A Simple Chat Application using FireBase",
+   "language": "JavaScript",
+   "pushed_at": "2024-07-13T15:22:09Z",
+   "created_at": "2024-07-13T15:07:29Z",
+   "fork": false
+  },
+  {
+   "name": "auth-api-stream",
+   "html_url": "https://github.com/pavankumart18/auth-api-stream",
+   "homepage": null,
+   "description": null,
+   "language": "TypeScript",
+   "pushed_at": "2024-07-05T15:32:42Z",
+   "created_at": "2024-07-05T15:27:28Z",
+   "fork": false
+  },
+  {
+   "name": "my-website",
+   "html_url": "https://github.com/pavankumart18/my-website",
+   "homepage": null,
+   "description": "Welcome to my personal website! This site serves as a hub for showcasing my skills, projects, and professional achievements. It is designed to provide an overview of my background, experiences, and the various certifications and accomplishments I've earned in the fields of cloud computing, artificial intelligence, and data science.",
+   "language": "HTML",
+   "pushed_at": "2024-07-05T03:08:40Z",
+   "created_at": "2024-07-03T17:12:34Z",
+   "fork": false
+  },
+  {
+   "name": "Cpp-Programming",
+   "html_url": "https://github.com/pavankumart18/Cpp-Programming",
+   "homepage": null,
+   "description": null,
+   "language": "C++",
+   "pushed_at": "2024-07-01T13:26:32Z",
+   "created_at": "2024-07-01T13:25:30Z",
+   "fork": false
+  },
+  {
+   "name": "Railway-Ticket-Reservation-System",
+   "html_url": "https://github.com/pavankumart18/Railway-Ticket-Reservation-System",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2024-06-30T13:41:27Z",
+   "created_at": "2024-06-30T13:25:54Z",
+   "fork": false
+  },
+  {
+   "name": "Smart-Hair",
+   "html_url": "https://github.com/pavankumart18/Smart-Hair",
+   "homepage": null,
+   "description": "A hair style recommender suggests hairstyles based on user input like face shape and length, providing tailored recommendations for inspiration.using MLP",
+   "language": "Jupyter Notebook",
+   "pushed_at": "2024-06-26T14:11:40Z",
+   "created_at": "2024-02-18T16:45:56Z",
+   "fork": false
+  },
+  {
+   "name": "BusTicketReservation",
+   "html_url": "https://github.com/pavankumart18/BusTicketReservation",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2024-06-13T09:30:03Z",
+   "created_at": "2024-06-13T09:28:54Z",
+   "fork": false
+  },
+  {
+   "name": "Climate-Cast",
+   "html_url": "https://github.com/pavankumart18/Climate-Cast",
+   "homepage": null,
+   "description": null,
+   "language": "HTML",
+   "pushed_at": "2024-05-20T11:43:52Z",
+   "created_at": "2024-05-20T11:21:13Z",
+   "fork": false
+  },
+  {
+   "name": "Slot-Machine",
+   "html_url": "https://github.com/pavankumart18/Slot-Machine",
+   "homepage": null,
+   "description": null,
+   "language": "Python",
+   "pushed_at": "2024-05-19T05:50:47Z",
+   "created_at": "2024-05-19T05:48:52Z",
+   "fork": false
+  },
+  {
+   "name": "Studybuddy",
+   "html_url": "https://github.com/pavankumart18/Studybuddy",
+   "homepage": null,
+   "description": "A Study Room App",
+   "language": "HTML",
+   "pushed_at": "2024-05-07T14:57:18Z",
+   "created_at": "2024-05-07T14:54:29Z",
+   "fork": false
+  },
+  {
+   "name": "Placement-Drive",
+   "html_url": "https://github.com/pavankumart18/Placement-Drive",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2024-03-02T13:26:07Z",
+   "created_at": "2024-03-02T13:19:51Z",
+   "fork": false
+  },
+  {
+   "name": "Student-Portal",
+   "html_url": "https://github.com/pavankumart18/Student-Portal",
+   "homepage": null,
+   "description": null,
+   "language": "JavaScript",
+   "pushed_at": "2024-03-02T13:19:10Z",
+   "created_at": "2024-03-02T13:15:53Z",
+   "fork": false
+  },
+  {
+   "name": "pavankumart",
+   "html_url": "https://github.com/pavankumart18/pavankumart",
+   "homepage": null,
+   "description": "Hello World,this is my profile",
+   "language": null,
+   "pushed_at": "2024-02-16T17:43:04Z",
+   "created_at": "2024-02-16T17:19:35Z",
+   "fork": false
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #ffffff;
+  --ink-rgb: 255 255 255;
+  --scrim-a: rgba(4, 5, 11, 0.82);
+  --scrim-b: rgba(4, 5, 11, 0.45);
+  --scrim-m: rgba(4, 5, 11, 0.55);
+  --bg: #04050b;
+  --surface: rgba(11, 13, 24, 0.86);
+  --surface-2: rgba(22, 25, 44, 0.75);
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --text: #e9ebef;
+  --muted: #8b919c;
+  --faint: #5b616c;
+  --accent: #7dd3fc;
+  --live: #4ade80;
+}
+
+/* Daylight sky */
+:root[data-theme="light"] {
+  --ink: #17132b;
+  --ink-rgb: 23 19 43;
+  --scrim-a: rgba(246, 243, 251, 0.9);
+  --scrim-b: rgba(246, 243, 251, 0.55);
+  --scrim-m: rgba(246, 243, 251, 0.72);
+  --bg: #f4f1fa;
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-2: rgba(255, 255, 255, 0.95);
+  --line: rgba(23, 19, 43, 0.1);
+  --line-strong: rgba(23, 19, 43, 0.2);
+  --text: #17132b;
+  --muted: #5d5873;
+  --faint: #8c87a3;
+  --accent: #0e7490;
+  --live: #059669;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-accent: var(--accent);
+  --color-live: var(--live);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-display);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  background: var(--bg);
+  color-scheme: dark;
+  transition: background-color 0.6s ease;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Transparent so the fixed 3D layer (negative z-index) shows through; html carries the base colour. */
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(138, 180, 255, 0.3);
+}
+
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+.eyebrow {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.text-aurora {
+  background: linear-gradient(100deg, #22d3ee 0%, #a78bfa 45%, #f472b6 75%, #fbbf24 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: aurora-shift 8s ease-in-out infinite;
+  padding-right: 0.06em;
+}
+@keyframes aurora-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* No backdrop-filter here: blurring a live WebGL layer under every card is the costliest thing on the page. */
+.glass {
+  background: var(--surface);
+}
+
+.glow-border {
+  position: relative;
+}
+.glow-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(140deg, rgba(34,211,238,.55), rgba(167,139,250,.15) 35%, rgba(244,114,182,.0) 60%, rgba(251,191,36,.45));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.glow-border:hover::before { opacity: 1; }
+
+.hairline {
+  border-color: var(--line);
+}
+
+@keyframes pulse-dot {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.55); }
+  50% { box-shadow: 0 0 0 6px rgba(74, 222, 128, 0); }
+}
+.live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--live);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(0.55); opacity: 0; }
+  40% { opacity: 1; }
+  50% { transform: scale(1); opacity: 0.8; }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Cursor spotlight on cards: --mx/--my are set by <Spotlight /> */
+.spot, .glass { position: relative; isolation: isolate; }
+.spot::after, .glass::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity .3s;
+  background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), rgba(167, 139, 250, 0.16), transparent 45%);
+}
+.spot:hover::after, .glass:hover::after { opacity: 1; }
+
+/* During the opening shot the nav steps out of frame. */
+header { transition: opacity 0.8s ease, transform 0.8s ease; }
+.cine-intro header { opacity: 0; transform: translateY(-12px); pointer-events: none; }
+
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="light"] ::selection { background: rgba(14, 116, 144, 0.22); }
+
+/* The 3D universe in daylight: invert the night sky into dawn, keep every hue. */
+.universe-canvas { transition: filter 0.9s ease; }
+:root[data-theme="light"] .universe-canvas { filter: invert(1) hue-rotate(180deg) saturate(1.5) brightness(1.04) contrast(0.92); }
+.sky-wash { opacity: 0; transition: opacity 0.9s ease; }
+:root[data-theme="light"] .sky-wash { opacity: 1; }
+
+/* Gradient text needs more depth on a light page. */
+:root[data-theme="light"] .text-aurora {
+  background-image: linear-gradient(100deg, #0891b2 0%, #7c3aed 45%, #db2777 75%, #d97706 100%);
+}
+
+/* Theme switch: everything cross-fades instead of snapping. */
+.theme-anim, .theme-anim * { transition: background-color 0.5s ease, border-color 0.5s ease, color 0.4s ease, fill 0.4s ease, stroke 0.4s ease !important; }
+
+/* Screens that stay dark in both themes (terminals, stages): pin the night palette inside them. */
+.screen-dark {
+  --ink: #ffffff;
+  --ink-rgb: 255 255 255;
+  --text: #e9ebef;
+  --muted: #8b919c;
+  --faint: #5b616c;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  color: var(--text);
+}
+
+/* Theme reveal: the new theme's snapshot is clipped in a growing circle (see setTheme). */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-new(root) { z-index: 2; }
+::view-transition-old(root) { z-index: 1; }
+/* While the reveal runs, everything switches instantly underneath it: no double animation. */
+.theme-vt .universe-canvas, .theme-vt .sky-wash, .theme-vt, .theme-vt * { transition: none !important; }
+
+/* A button that smoulders when you hover it. */
+.ember { transition: box-shadow 0.5s ease, transform 0.3s ease; }
+.ember:hover {
+  transform: translateY(-1px);
+  animation: ember-flicker 1.6s ease-in-out infinite;
+}
+@keyframes ember-flicker {
+  0%, 100% { box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.55), 0 6px 26px 4px rgba(239, 68, 68, 0.55), 0 12px 60px 10px rgba(249, 115, 22, 0.28); }
+  45% { box-shadow: 0 0 0 1px rgba(252, 165, 165, 0.7), 0 6px 34px 7px rgba(239, 68, 68, 0.7), 0 14px 72px 14px rgba(249, 115, 22, 0.36); }
+  70% { box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.45), 0 6px 22px 3px rgba(239, 68, 68, 0.45), 0 10px 52px 8px rgba(249, 115, 22, 0.22); }
+}
